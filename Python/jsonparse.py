@@ -3,7 +3,7 @@ import os
 
 # --- 1. Define the file path ---
 # os.path.join makes this compatible across Windows/Linux/Mac
-FILE_PATH = os.path.join(os.path.dirname(__file__), 'sample_data.json')
+FILE_PATH = os.path.join(os.path.dirname(__file__), 'sample.json')
 
 def parse_json_file(file_path):
     """
